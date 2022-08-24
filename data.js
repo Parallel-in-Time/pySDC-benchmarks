@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661243489386,
+  "lastUpdate": 1661355555501,
   "repoUrl": "https://github.com/Parallel-in-Time/pySDC",
   "entries": {
     "pySDC Benchmark with pytest-benchmark": [
@@ -69,6 +69,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009012727628669396",
             "extra": "mean: 395.0538081999923 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "committer": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "distinct": true,
+          "id": "6fc8fe34c7f7b55221c16ca237200cd0d79467e8",
+          "message": "Started to integrate gitlab runners",
+          "timestamp": "2022-08-24T17:16:55+02:00",
+          "tree_id": "3cb4809d05e90fef027b80d5af7771d7700df062",
+          "url": "https://github.com/Parallel-in-Time/pySDC/commit/6fc8fe34c7f7b55221c16ca237200cd0d79467e8"
+        },
+        "date": 1661355555061,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "pySDC/tests/test_benchmarks/test_PFASST_NumPy.py::test_B",
+            "value": 0.22080937663491973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015080319757052933",
+            "extra": "mean: 4.528793184600005 sec\nrounds: 5"
+          },
+          {
+            "name": "pySDC/tests/test_benchmarks/test_collocation.py::test_benchmark_collocation",
+            "value": 4.151177971304462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007895450506838472",
+            "extra": "mean: 240.895477600003 msec\nrounds: 5"
           }
         ]
       }

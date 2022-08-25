@@ -1,0 +1,24 @@
+name: Publishing benchmark results
+
+on:
+  push:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+      - name: Store benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          name: pySDC Benchmark with pytest-benchmark
+          tool: 'pytest'
+          output-file-path: output.json
+          auto-push: true
+          benchmark-data-dir-path: .
+          gh-pages-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}

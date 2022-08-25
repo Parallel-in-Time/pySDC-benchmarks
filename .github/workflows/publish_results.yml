@@ -27,7 +27,7 @@ jobs:
         with:
           name: pySDC Benchmark with pytest-benchmark
           tool: 'pytest'
-          output-file-path: output.json
+          output-file-path: latest/output.json
           auto-push: true
           benchmark-data-dir-path: .
           gh-pages-branch: gh-pages

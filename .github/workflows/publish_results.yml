@@ -55,8 +55,6 @@ jobs:
 
       - name: Prepare data
         run: |
-          rm -rf data/README
-          find latest-coverage -type f -print0 | xargs -0 -I file mv --backup=numbered file latest-coverage
           python -m coverage combine latest-coverage/coverage_*.dat
           python -m coverage xml
 

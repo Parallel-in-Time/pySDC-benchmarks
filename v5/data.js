@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662801223113,
+  "lastUpdate": 1662803171286,
   "repoUrl": "https://github.com/Parallel-in-Time/pySDC",
   "entries": {
     "pySDC Benchmark with pytest-benchmark": [
@@ -76,6 +76,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0009316639458479025",
             "extra": "mean: 236.50702119999778 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "committer": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "distinct": true,
+          "id": "ffe62c790df6ed2f6a7d7b71a791f9821b8827ba",
+          "message": "wip benchmark",
+          "timestamp": "2022-09-10T11:15:16+02:00",
+          "tree_id": "5c00f4dc23ea19faae514e43ffbbdab79d0a612e",
+          "url": "https://github.com/Parallel-in-Time/pySDC/commit/ffe62c790df6ed2f6a7d7b71a791f9821b8827ba"
+        },
+        "date": 1662803171139,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "pySDC/tests/test_benchmarks/test_PFASST_NumPy.py::test_B",
+            "value": 0.15987956962199404,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017976657887753884",
+            "extra": "mean: 6.254707855195738 sec\nrounds: 5"
+          },
+          {
+            "name": "pySDC/tests/test_benchmarks/test_collocation.py::test_benchmark_collocation",
+            "value": 3.2321446075428306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032162115666545163",
+            "extra": "mean: 309.39209763891995 msec\nrounds: 5"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662826822940,
+  "lastUpdate": 1662884588204,
   "repoUrl": "https://github.com/Parallel-in-Time/pySDC",
   "entries": {
     "pySDC Benchmark with pytest-benchmark": [
@@ -190,6 +190,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004948584704523144",
             "extra": "mean: 236.86126200004765 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "committer": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "distinct": true,
+          "id": "310449349528af6cb2f2fe1fb6bce8986909b1fd",
+          "message": "Update .gitlab-ci.yml",
+          "timestamp": "2022-09-11T09:55:09+02:00",
+          "tree_id": "03ce9ad0c0b195a66c6f391803c81d8b23d45713",
+          "url": "https://github.com/Parallel-in-Time/pySDC/commit/310449349528af6cb2f2fe1fb6bce8986909b1fd"
+        },
+        "date": 1662884588003,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "pySDC/tests/test_benchmarks/test_PFASST_NumPy.py::test_B",
+            "value": 0.15775293993955072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06005238381756133",
+            "extra": "mean: 6.339026076998562 sec\nrounds: 5"
+          },
+          {
+            "name": "pySDC/tests/test_benchmarks/test_collocation.py::test_benchmark_collocation",
+            "value": 3.248940744095316,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002342865932231038",
+            "extra": "mean: 307.79262497089803 msec\nrounds: 5"
           }
         ]
       }

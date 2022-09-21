@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663060360007,
+  "lastUpdate": 1663744741998,
   "repoUrl": "https://github.com/Parallel-in-Time/pySDC",
   "entries": {
     "pySDC Benchmark with pytest-benchmark": [
@@ -418,6 +418,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.001317378322809046",
             "extra": "mean: 239.3510746000061 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "committer": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "distinct": true,
+          "id": "a2be0bf34b1ea71549db32b5329232c4bb7752d6",
+          "message": "Update environment-mpi4py.yml",
+          "timestamp": "2022-09-21T08:35:03+02:00",
+          "tree_id": "26b9822b23b38d5735ca406aa2ff1dbde59aec1b",
+          "url": "https://github.com/Parallel-in-Time/pySDC/commit/a2be0bf34b1ea71549db32b5329232c4bb7752d6"
+        },
+        "date": 1663744741856,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "pySDC/tests/test_benchmarks/test_PFASST_NumPy.py::test_B",
+            "value": 0.2095475360828186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025120237017807752",
+            "extra": "mean: 4.77218686839999 sec\nrounds: 5"
+          },
+          {
+            "name": "pySDC/tests/test_benchmarks/test_collocation.py::test_benchmark_collocation",
+            "value": 4.190991204062644,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025350559768063156",
+            "extra": "mean: 238.60703859999148 msec\nrounds: 5"
           }
         ]
       }

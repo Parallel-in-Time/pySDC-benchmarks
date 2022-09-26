@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664187229812,
+  "lastUpdate": 1664194581647,
   "repoUrl": "https://github.com/Parallel-in-Time/pySDC",
   "entries": {
     "pySDC Benchmark with pytest-benchmark": [
@@ -494,6 +494,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0018008887225198938",
             "extra": "mean: 236.43800460000648 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "committer": {
+            "email": "r.speck@fz-juelich.de",
+            "name": "Robert Speck",
+            "username": "pancetta"
+          },
+          "distinct": true,
+          "id": "46170da476c75c7d769e6e12b6bf3811800ee070",
+          "message": "Update ci_pipeline.yml",
+          "timestamp": "2022-09-26T13:52:34+02:00",
+          "tree_id": "b54569a913dd608a6a0da1a139faa0b4209f0e87",
+          "url": "https://github.com/Parallel-in-Time/pySDC/commit/46170da476c75c7d769e6e12b6bf3811800ee070"
+        },
+        "date": 1664194581509,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "pySDC/tests/test_benchmarks/test_PFASST_NumPy.py::test_B",
+            "value": 0.20667538258727836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05793330014537771",
+            "extra": "mean: 4.8385056192055345 sec\nrounds: 5"
+          },
+          {
+            "name": "pySDC/tests/test_benchmarks/test_collocation.py::test_benchmark_collocation",
+            "value": 4.193892910029889,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018400403785695171",
+            "extra": "mean: 238.44194915145636 msec\nrounds: 5"
           }
         ]
       }
